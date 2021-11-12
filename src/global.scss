@@ -1,0 +1,47 @@
+
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css'; 
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+@import "~@ng-select/ng-select/themes/default.theme.css";
+.text-danger{
+    color:red;
+}
+.text-success{
+    color:rgb(23, 170, 43);
+}
+.text-info{
+    color:rgb(53, 158, 199);
+}
+.text-white{
+    color :#fff !important;
+}
+.w-100{
+    width: 100% !important;
+}
+.mt-1{
+    margin-top: .25em;
+}
+.mt-2{
+    margin-top: .5em;
+}
+.mt-3{
+    margin-top: 1em;
+}
+.mt-4{
+    margin-top: 1.5em;
+}
+
+.text-center{
+    text-align: center !important;
+}
+.w-100{
+    width: 100% !important; 
+}

@@ -1,0 +1,10 @@
+{
+  "name": "innovacion",
+  "integrations": {
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
+  },
+  "type": "angular"
+}

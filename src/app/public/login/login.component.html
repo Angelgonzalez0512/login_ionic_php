@@ -1,0 +1,19 @@
+ <div class="container-login">
+      <form action="" (submit)="Login(user)">
+        <ion-item class="mt-3">
+          <ion-label position="floating">Usuario</ion-label>
+          <ion-input autocomplete="email" type="email" name="usuario" required [(ngModel)]="user.email"></ion-input>
+        </ion-item>
+        <ion-item class="mt-2">
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input autocomplete="current-password" name="password" required [(ngModel)]="user.password" type="password"></ion-input>
+        </ion-item>
+      
+          <ion-text class="text-danger ion-text-center">
+           <p>{{messageError}}</p> 
+          </ion-text>
+       
+        <ion-button class="w-100 login-button" color="secondary" type="submit">Iniciar sesíon</ion-button>
+
+      </form>
+    </div>
